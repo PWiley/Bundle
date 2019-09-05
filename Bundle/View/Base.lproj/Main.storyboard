@@ -41,20 +41,20 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vr3-aW-jx0">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="barTintColor" red="0.6776134372" green="0.41984862090000002" blue="0.59217202660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="dUU-fk-9Ka" kind="relationship" relationship="rootViewController" id="2tB-j6-V4A"/>
+                        <segue destination="F1X-z6-CWW" kind="relationship" relationship="rootViewController" id="0KF-ze-PP7"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2NG-in-x3P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-281" y="-408"/>
         </scene>
-        <!--Tr-->
+        <!--Table View Controller-->
         <scene sceneID="h1D-Hm-cFC">
             <objects>
-                <tableViewController id="dUU-fk-9Ka" customClass="tr" sceneMemberID="viewController">
+                <tableViewController id="dUU-fk-9Ka" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="l9Y-T1-0rN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -79,7 +79,32 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y9p-Gu-heI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="702" y="-409"/>
+            <point key="canvasLocation" x="596" y="-963"/>
+        </scene>
+        <!--Translator View Controller-->
+        <scene sceneID="rNk-RN-seo">
+            <objects>
+                <viewController id="F1X-z6-CWW" customClass="TranslatorViewController" customModule="Bundle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UML-AE-TtV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="T1e-uu-NRy">
+                                <rect key="frame" x="0.0" y="64" width="375" height="546"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="FPo-aC-9xR"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DXI-fI-BNL">
+                        <barButtonItem key="backBarButtonItem" title="yes" id="uxO-pZ-gll"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kdX-6E-Bab" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1389.5999999999999" y="-410.64467766116945"/>
         </scene>
         <!--Weather-->
         <scene sceneID="XVz-YO-icT">
@@ -91,7 +116,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="z5P-t8-ejR">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.6806200147" green="0.76280617709999998" blue="0.85883826019999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" red="0.6776134372" green="0.41984862090000002" blue="0.59217202660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
                     <connections>
                         <segue destination="3nz-zy-OBS" kind="relationship" relationship="rootViewController" id="KO9-3B-p7I"/>
@@ -188,7 +213,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6Tb-jE-skh">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.82937872410000002" green="0.93615519999999997" blue="0.99216729400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" red="0.6776134372" green="0.41984862090000002" blue="0.59217202660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
                     <connections>
                         <segue destination="dXg-1X-m3f" kind="relationship" relationship="rootViewController" id="ceC-Gp-BQZ"/>
