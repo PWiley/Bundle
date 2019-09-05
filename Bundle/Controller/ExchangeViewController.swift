@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ExchangeViewController: UIViewController {
+class ExchangeViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

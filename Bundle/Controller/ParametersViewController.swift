@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ParametersViewController: UIViewController {
+class ParametersViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
