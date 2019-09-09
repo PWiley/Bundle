@@ -8,23 +8,36 @@
 
 import UIKit
 
-class ExchangeViewController: UITableViewController {
-
+class ExchangeViewController: UIViewController {
+    var exchange = Exchange()
+    
+    @IBOutlet var tableViewExchange: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        exchange.currencies = exchange.createCurrency()
 
         // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewWillAppear(_ animated: Bool) {
+        
+        super.viewWillAppear(animated)
+        tableViewExchange.backgroundView = UIImageView(image: UIImage(named: "Background_Exchange"))
     }
-    */
+
 
 }
+
+extension ExchangeViewController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return exchange.currencies.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let currency = exchange.currencies[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ExchangeCell") as! ExchangeCell
+        cell.setCurrency(currency: currency)
+        return cell
+    }
+}
+
