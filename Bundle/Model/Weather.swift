@@ -8,7 +8,7 @@
 
 import Foundation
 
-class WeatherModel {
+class Weather {
 
    
 
