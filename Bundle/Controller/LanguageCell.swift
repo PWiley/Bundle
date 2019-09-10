@@ -10,7 +10,6 @@ import UIKit
 
 class LanguageCell: UITableViewCell {
 
-    @IBOutlet weak var viewTranslate: UIView!
     @IBOutlet weak var textTranslate: UITextView!
     @IBOutlet weak var imageLanguage: UIImageView!
     @IBOutlet weak var nameLanguage: UILabel!
