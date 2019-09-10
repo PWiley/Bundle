@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ExchangeViewController: UIViewController {
+class ExchangeViewController: ViewController {
     var exchange = Exchange()
     
     @IBOutlet var tableViewExchange: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableViewExchange.estimatedRowHeight = 120
         exchange.currencies = exchange.createCurrency()
 
         // Do any additional setup after loading the view.
@@ -23,6 +24,7 @@ class ExchangeViewController: UIViewController {
         
         super.viewWillAppear(animated)
         tableViewExchange.backgroundView = UIImageView(image: UIImage(named: "Background_Exchange"))
+        tableViewExchange.invalidateIntrinsicContentSize()
     }
 
 
@@ -38,6 +40,10 @@ extension ExchangeViewController: UITableViewDataSource, UITableViewDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ExchangeCell") as! ExchangeCell
         cell.setCurrency(currency: currency)
         return cell
+    }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableView.automaticDimension
+        
     }
 }
 

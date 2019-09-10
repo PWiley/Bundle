@@ -16,7 +16,7 @@ class TranslatorViewController: ViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableViewTranslator.estimatedRowHeight = 200
+        //tableViewTranslator.estimatedRowHeight = 200
         translate.languages = translate.createLanguage()
         
 
@@ -26,7 +26,7 @@ class TranslatorViewController: ViewController {
         
         super.viewWillAppear(animated)
         tableViewTranslator.backgroundView = UIImageView(image: UIImage(named: "Background_Translator"))
-        tableViewTranslator.invalidateIntrinsicContentSize()
+        
     }
 
    
