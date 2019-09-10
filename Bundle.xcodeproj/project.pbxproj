@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		DA08E9BA232265A4007C82FC /* LanguageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA08E9B9232265A4007C82FC /* LanguageCell.swift */; };
 		DA08E9BC232281B5007C82FC /* ExchangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA08E9BB232281B5007C82FC /* ExchangeCell.swift */; };
-		DA243EF12321302A0048E379 /* ParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA243EF02321302A0048E379 /* ParametersViewController.swift */; };
-		DA243EF3232130580048E379 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA243EF2232130580048E379 /* Parameters.swift */; };
 		DA51353D23153B1A003AFBBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA51353C23153B1A003AFBBC /* AppDelegate.swift */; };
 		DA51353F23153B1A003AFBBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA51353E23153B1A003AFBBC /* ViewController.swift */; };
 		DA51354223153B1A003AFBBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA51354023153B1A003AFBBC /* Main.storyboard */; };
@@ -38,8 +36,6 @@
 /* Begin PBXFileReference section */
 		DA08E9B9232265A4007C82FC /* LanguageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCell.swift; sourceTree = "<group>"; };
 		DA08E9BB232281B5007C82FC /* ExchangeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeCell.swift; sourceTree = "<group>"; };
-		DA243EF02321302A0048E379 /* ParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersViewController.swift; sourceTree = "<group>"; };
-		DA243EF2232130580048E379 /* Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
 		DA51353923153B1A003AFBBC /* Bundle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bundle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA51353C23153B1A003AFBBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA51353E23153B1A003AFBBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,7 +119,6 @@
 				DA7D72392318348F00C3099A /* TranslatorViewController.swift */,
 				DA7D723B231834A400C3099A /* ExchangeViewController.swift */,
 				DA7D723D231834B500C3099A /* WeatherViewController.swift */,
-				DA243EF02321302A0048E379 /* ParametersViewController.swift */,
 				DA08E9B9232265A4007C82FC /* LanguageCell.swift */,
 				DA08E9BB232281B5007C82FC /* ExchangeCell.swift */,
 			);
@@ -145,7 +140,6 @@
 				DA513560231566B7003AFBBC /* Exchange.swift */,
 				DA51355F231566B7003AFBBC /* Translate.swift */,
 				DA513561231566B7003AFBBC /* Weather.swift */,
-				DA243EF2232130580048E379 /* Parameters.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -256,10 +250,8 @@
 				DA51353F23153B1A003AFBBC /* ViewController.swift in Sources */,
 				DA7D723C231834A400C3099A /* ExchangeViewController.swift in Sources */,
 				DA7D723A2318348F00C3099A /* TranslatorViewController.swift in Sources */,
-				DA243EF12321302A0048E379 /* ParametersViewController.swift in Sources */,
 				DA513563231566B7003AFBBC /* Exchange.swift in Sources */,
 				DA7D723E231834B500C3099A /* WeatherViewController.swift in Sources */,
-				DA243EF3232130580048E379 /* Parameters.swift in Sources */,
 				DA08E9BA232265A4007C82FC /* LanguageCell.swift in Sources */,
 				DA51353D23153B1A003AFBBC /* AppDelegate.swift in Sources */,
 				DA513564231566B7003AFBBC /* Weather.swift in Sources */,
