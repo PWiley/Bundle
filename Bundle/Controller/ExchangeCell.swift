@@ -14,7 +14,7 @@ class ExchangeCell: UITableViewCell {
     @IBOutlet weak var shortLabel: UILabel!
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var flagCurrency: UIImageView!
-    @IBOutlet weak var amount: UILabel!
+    @IBOutlet weak var amount: UITextField!
     
     func setCurrency(currency: Currency) {
         imageCurrency.image = currency.image
