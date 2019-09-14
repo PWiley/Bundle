@@ -21,6 +21,7 @@
 		DA7D723A2318348F00C3099A /* TranslatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D72392318348F00C3099A /* TranslatorViewController.swift */; };
 		DA7D723C231834A400C3099A /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D723B231834A400C3099A /* ExchangeViewController.swift */; };
 		DA7D723E231834B500C3099A /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D723D231834B500C3099A /* WeatherViewController.swift */; };
+		DA97F2B7232A6665000629CF /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97F2B6232A6665000629CF /* ExtensionUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		DA7D72392318348F00C3099A /* TranslatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorViewController.swift; sourceTree = "<group>"; };
 		DA7D723B231834A400C3099A /* ExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewController.swift; sourceTree = "<group>"; };
 		DA7D723D231834B500C3099A /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		DA97F2B6232A6665000629CF /* ExtensionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		DA51353023153B1A003AFBBC = {
 			isa = PBXGroup;
 			children = (
+				DA97F2B5232A6610000629CF /* Extension */,
 				DA51353B23153B1A003AFBBC /* Bundle */,
 				DA51355023153B1A003AFBBC /* BundleTests */,
 				DA51353A23153B1A003AFBBC /* Products */,
@@ -142,6 +145,14 @@
 				DA513561231566B7003AFBBC /* Weather.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DA97F2B5232A6610000629CF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DA97F2B6232A6665000629CF /* ExtensionUIView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +258,7 @@
 			files = (
 				DA08E9BC232281B5007C82FC /* ExchangeCell.swift in Sources */,
 				DA513562231566B7003AFBBC /* Translate.swift in Sources */,
+				DA97F2B7232A6665000629CF /* ExtensionUIView.swift in Sources */,
 				DA51353F23153B1A003AFBBC /* ViewController.swift in Sources */,
 				DA7D723C231834A400C3099A /* ExchangeViewController.swift in Sources */,
 				DA7D723A2318348F00C3099A /* TranslatorViewController.swift in Sources */,
