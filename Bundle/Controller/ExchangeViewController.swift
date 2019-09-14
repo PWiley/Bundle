@@ -15,7 +15,7 @@ class ExchangeViewController: ViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableViewExchange.estimatedRowHeight = 120
+        //tableViewExchange.estimatedRowHeight = 120
         exchange.currencies = exchange.createCurrency()
 
         // Do any additional setup after loading the view.
@@ -24,7 +24,7 @@ class ExchangeViewController: ViewController {
         
         super.viewWillAppear(animated)
         tableViewExchange.backgroundView = UIImageView(image: UIImage(named: "Background_Exchange"))
-        tableViewExchange.invalidateIntrinsicContentSize()
+        //tableViewExchange.invalidateIntrinsicContentSize()
     }
 
 

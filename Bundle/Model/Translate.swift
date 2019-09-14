@@ -15,8 +15,8 @@ class Translate {
     
     
     func createLanguage() -> [Language] {
-        let french = Language(image: #imageLiteral(resourceName: "France"), title: "France", text: "Tapez votre texte! pour mandkjsabfkjbsfbambv")
-        let english = Language(image: #imageLiteral(resourceName: "England"), title: "Great britain", text: "Enter your text!")
+        let french = Language(image: #imageLiteral(resourceName: "France"), title: "France", text: "Tapez votre texte!")
+        let english = Language(image: #imageLiteral(resourceName: "Untitled"), title: "United Kingdom", text: "Enter your text!")
         
         return [french,english]
     }

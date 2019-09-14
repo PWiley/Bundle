@@ -10,6 +10,7 @@ import UIKit
 
 class ExchangeCell: UITableViewCell {
     
+    @IBOutlet weak var exchangeView: UIView!
     @IBOutlet weak var imageCurrency: UIImageView!
     @IBOutlet weak var shortLabel: UILabel!
     @IBOutlet weak var name: UILabel!
@@ -25,4 +26,5 @@ class ExchangeCell: UITableViewCell {
         
         
     }
+    
 }

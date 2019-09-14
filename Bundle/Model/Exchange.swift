@@ -14,8 +14,8 @@ class Exchange {
     var currencies: [Currency] = []
     
     func createCurrency() -> [Currency] {
-        let euro = Currency(flag:#imageLiteral(resourceName: "Europe") , shortLabel: "EUR", name: "Euro", image: #imageLiteral(resourceName: "Euro"), amount: "1000")
-        let dollar = Currency(flag: #imageLiteral(resourceName: "USA"), shortLabel: "USD", name: "US-Dollar", image: #imageLiteral(resourceName: "dollar.png"), amount: "1000")
+        let euro = Currency(flag:#imageLiteral(resourceName: "Europe") , shortLabel: "EUR", name: "Euro", image: #imageLiteral(resourceName: "british-pound"), amount: "1000")
+        let dollar = Currency(flag: #imageLiteral(resourceName: "USA"), shortLabel: "USD", name: "US-Dollar", image: #imageLiteral(resourceName: "us-dollar"), amount: "1000")
          return [euro, dollar]
     }
 
